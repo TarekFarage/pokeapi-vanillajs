@@ -1,24 +1,31 @@
-@import './general/variables.scss';
-@import './general/reset.scss';
-@import './mixins/media_queries.scss';
-@import './components/nav.scss';
-@import './components/main_content.scss';
-
+@import "./general/variables.scss";
+@import "./general/reset.scss";
+@import "./mixins/media_queries.scss";
+@import "./components/nav.scss";
+@import "./components/main_content.scss";
 
 body {
-    font-family: $main-font;
-    line-height: 1.3;
+  font-family: $main-font;
+  line-height: 1.3;
+ 
+  a {
+    text-decoration: none;
+  }
 }
 
 header {
-    color: white;
-    background-color:$test;
-   
+ 
+  height: 50px;
 }
 
-main {
-    h2 {
-        font-size: 40px;
-    }
+#results{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
 
+   margin-top:20px;
+}
+
+#pokemon-modal {
+    display: none;
 }

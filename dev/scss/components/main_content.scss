@@ -1,14 +1,72 @@
-.main-container{
-    display: flex;
-    justify-content: space-around;
 
-    .banner {
-        text-align: center;
-        h2 {
-            padding: 10px;
-        }
-        h3 span {
-            font-weight: normal;
-        }
-    }
+
+
+
+input[type="text"] {
+  
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+ 
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  
+}
+
+
+.main-container{
+    width: 90%;
+    margin: auto;
+
+}
+
+
+input{
+    width:100%;
+    border:none;
+    outline:none;
+    box-shadow: 0 0 10px lightgray;
+    color: lightgray;
+}
+
+.search-result {
+  
+  padding:20px 0 10px 0;
+  width: 100%;
+  border-bottom: 1px solid blue;
+ 
+  span{
+    animation: myfirst 0.4s ease;
+    animation-fill-mode:forwards;
+  }
+}
+@keyframes myfirst {
+  from {
+    font-size: 1px;
+    left: 0px;
+    top: 0px;
+  }
+/*   25% {
+    font-size: 14px;
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    font-size: 15px;
+    left: 0px;
+    top: 0px;
+  } */
+  to {
+    font-size: 20px;
+    left: 0px;
+    top: 0px;
+  }
+ /*  100% {
+    font-size: 16px;
+    left: 0px;
+    top: 0px;
+  } */
 }
