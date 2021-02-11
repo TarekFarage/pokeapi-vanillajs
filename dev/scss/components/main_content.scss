@@ -34,39 +34,15 @@ input{
 
 .search-result {
   
-  padding:20px 0 10px 0;
-  width: 100%;
-  border-bottom: 1px solid blue;
+  
+  
+  
  
-  span{
-    animation: myfirst 0.4s ease;
-    animation-fill-mode:forwards;
+  button{
+    margin:20px;
+    border:none;
+   
+    
+    padding:10px;
   }
-}
-@keyframes myfirst {
-  from {
-    font-size: 1px;
-    left: 0px;
-    top: 0px;
-  }
-/*   25% {
-    font-size: 14px;
-    left: 0px;
-    top: 0px;
-  }
-  50% {
-    font-size: 15px;
-    left: 0px;
-    top: 0px;
-  } */
-  to {
-    font-size: 20px;
-    left: 0px;
-    top: 0px;
-  }
- /*  100% {
-    font-size: 16px;
-    left: 0px;
-    top: 0px;
-  } */
 }

@@ -20,10 +20,10 @@ header {
 
 #results{
     display: flex;
-    flex-direction: column;
-    justify-content:flex-start;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
 
-   margin-top:20px;
+  
 }
 
 #pokemon-modal {
